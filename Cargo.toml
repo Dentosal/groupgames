@@ -5,8 +5,7 @@ edition = "2021"
 publish = false
 
 [dependencies]
-wgfw = { path = "../webgameprotocol" }
-# wgfw = { git = "github.com/Dentosal/web-game-framework" }
+wgfw = { git = "https://github.com/Dentosal/web-game-framework" }
 
 serde_millis = "0.1.1"
 rand = "0.8"
